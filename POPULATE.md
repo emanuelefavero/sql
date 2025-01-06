@@ -21,7 +21,7 @@ CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(255),
     email VARCHAR(255),
-    age INT
+    age INT,
     occupation VARCHAR(255)
 );
 ```
@@ -30,8 +30,11 @@ CREATE TABLE users (
 
 - Load the data from the CSV files into the tables (add the absolute path to the CSV files):
 
+> Note: To enable CSV file importing, run the following query: `SET GLOBAL local_infile = true;`, then `exit` the MySQL Workbench and re-enter with `mysql -u root --local-infile=1` to enable the local infile option
+
 ```sql
-LOAD DATA LOCAL INFILE 'path/to/users.csv'
+USE test_db;
+LOAD DATA LOCAL INFILE '/Users/emanuelefavero/Desktop/sql/data/users.csv'
 INTO TABLE users
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n'
