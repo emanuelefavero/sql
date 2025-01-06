@@ -18,7 +18,7 @@ connection.connect((err) => {
 })
 
 // Select all rows from the table
-connection.query('SELECT * FROM test_table', (err, results) => {
+connection.query('SELECT * FROM users', (err, results) => {
   if (err) throw err
 
   console.log(results)
@@ -27,7 +27,7 @@ connection.query('SELECT * FROM test_table', (err, results) => {
 // Query
 const query = `
   SELECT name FROM users
-  WHERE age < 20
+  WHERE age > 50
   ORDER BY name
 `
 
