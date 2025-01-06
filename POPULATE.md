@@ -34,7 +34,7 @@ CREATE TABLE users (
 
 ```sql
 USE test_db;
-LOAD DATA LOCAL INFILE '/path/to/users.csv'
+LOAD DATA LOCAL INFILE '/absolute-path/to/users.csv'
 INTO TABLE users
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n'

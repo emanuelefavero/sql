@@ -24,7 +24,7 @@ connection.query('SELECT * FROM users', (err, results) => {
   console.log(results)
 })
 
-// Query
+// * Query
 const query = `
   SELECT name FROM users
   WHERE age > 50
