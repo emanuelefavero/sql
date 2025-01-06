@@ -15,7 +15,7 @@ This is a Node.js playground for SQL queries
 - Run `npm start` or `npm run dev` to start the server
 - Edit the `index.js` file to write your SQL queries
 
-> Note: You could also use the MySQL Workbench to run the queries. To open the MySQL Workbench, run `mysql -u root` (add the `-p` flag if you have a password)
+> Note: You could also use the MySQL Workbench to run the queries. To open the MySQL Workbench, run `mysql -u root` (add the `-p` flag if you have a password). To exit the MySQL Workbench, run `exit`. Before running the queries, remember to select the database by running `USE test_db;`
 
 ## Resources
 
