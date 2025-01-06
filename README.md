@@ -31,3 +31,7 @@ This is a Node.js playground for SQL queries
 - [Kaggle](https://www.kaggle.com/datasets)
 - [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php)
 - [Data.gov](https://www.data.gov/)
+
+## License
+
+- [MIT](LICENSE.md)
