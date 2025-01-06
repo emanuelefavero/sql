@@ -1,4 +1,4 @@
-// * SELECT query
+// * SELECT
 let query = `
   SELECT name FROM users
 `
