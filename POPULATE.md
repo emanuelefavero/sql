@@ -17,6 +17,7 @@ USE test_db;
 - Create a table:
 
 ```sql
+USE test_db;
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(255),
