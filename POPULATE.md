@@ -35,7 +35,7 @@ CREATE TABLE users (
 ```sql
 USE test_db;
 LOAD DATA LOCAL INFILE '/absolute-path/to/users.csv'
-INTO TABLE users
+INTO TABLE users -- choose the table you want to load the data into
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n'
 IGNORE 1 ROWS; -- skip the header row

@@ -1,0 +1,7 @@
+CREATE TABLE players (
+    id INT PRIMARY KEY,
+    full_name VARCHAR(255),
+    first_name VARCHAR(255),
+    last_name VARCHAR(255),
+    is_active BOOLEAN
+);
