@@ -18,12 +18,12 @@ export default function executeQuery(query) {
     console.log('Connected as id ' + connection.threadId)
   })
 
-  // Select all rows from the table
-  connection.query('SELECT * FROM users', (err, results) => {
-    if (err) throw err
+  // * Run this query if you want to see all data
+  // connection.query('SELECT * FROM users', (err, results) => {
+  //   if (err) throw err
 
-    console.log(results)
-  })
+  //   console.log(results)
+  // })
 
   connection.query(query, (err, results) => {
     if (err) throw err
