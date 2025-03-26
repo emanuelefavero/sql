@@ -1,6 +1,6 @@
-const mysql = require('mysql2')
+import mysql from 'mysql2'
 
-function executeQuery(query) {
+export default function executeQuery(query) {
   // Create a connection
   const connection = mysql.createConnection({
     host: 'localhost',
@@ -40,5 +40,3 @@ function executeQuery(query) {
     console.log('Connection closed')
   })
 }
-
-module.exports = executeQuery
