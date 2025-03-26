@@ -1,4 +1,4 @@
-CREATE TABLE career_totals_post_season (
+CREATE TABLE playoffs (
     player_id INT,
     league_id INT,
     team_id INT,

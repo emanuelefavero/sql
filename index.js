@@ -1,6 +1,6 @@
 // * Query
 let query = `
-  SELECT * FROM users
+  SELECT pts FROM playoffs LIMIT 1
 `
 
 // ----------------------------
