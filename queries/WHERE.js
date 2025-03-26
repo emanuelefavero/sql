@@ -54,5 +54,5 @@ query = `
 
 // ----------------------------
 
-const executeQuery = require('../config')
+import executeQuery from '../config.js'
 executeQuery(query)
